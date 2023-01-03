@@ -1,11 +1,11 @@
 package com.example.labcityworld.app;
 
-import android.app.Application;
 import android.annotation.SuppressLint;
-
-import java.util.concurrent.atomic.AtomicInteger;
+import android.app.Application;
 
 import com.example.labcityworld.models.City;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;

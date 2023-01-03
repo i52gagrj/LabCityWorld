@@ -2,9 +2,10 @@ package com.example.labcityworld.models;
 
 import com.example.labcityworld.app.MyApplication;
 
+import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
-public class City {
+public class City extends RealmObject {
     @PrimaryKey
     private int id;
     private String name;
