@@ -1,4 +1,4 @@
-/*plugins {
+plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'org.jetbrains.kotlin.kapt'
@@ -44,9 +44,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
-}*/
+}
 
-apply plugin: 'com.android.application'
+/*apply plugin: 'com.android.application'
 apply plugin: 'realm-android'
 
 android {
@@ -85,4 +85,4 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
     implementation 'com.android.support:design:32.0.0'
-}
+}*/
