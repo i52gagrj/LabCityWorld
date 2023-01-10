@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         fab = (FloatingActionButton) findViewById(R.id.fabAddCity);
-        
+
     }
 }

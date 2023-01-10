@@ -19,7 +19,7 @@
         android:layout_margin="16dp"
         android:clickable="true"
         android:backgroundTint="@color/colorAccent"
-        android:src="@mipmap/ic_add_fab_round"
+        android:src="@drawable/ic_add_fab"
         app:borderWidth="0dp"/>
 
 </FrameLayout>
