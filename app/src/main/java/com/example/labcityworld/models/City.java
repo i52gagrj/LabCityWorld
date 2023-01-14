@@ -10,24 +10,26 @@ public class City extends RealmObject {
     private int id;
     private String name;
     private String description;
-    private String backgroundImage;
+    private String image;
     private float stars;
 
     public City() {
 
     }
 
-    public City(String name, String description, String backgroundImage, int stars) {
+    public City(String name, String description, String backgroundImage, float stars) {
         this.id = MyApplication.CityID.incrementAndGet();
         this.name = name;
         this.description = description;
-        this.backgroundImage = backgroundImage;
+        this.image = backgroundImage;
         this.stars = stars;
     }
 
     public int getId() {
         return id;
     }
+
+    public void setId(int id) { this.id = id; }
 
     public String getName() {
         return name;
@@ -45,12 +47,12 @@ public class City extends RealmObject {
         this.description = description;
     }
 
-    public String getBackgroundImage() {
-        return backgroundImage;
+    public String getImage() {
+        return image;
     }
 
-    public void setBackgroundImage(String backgroundImage) {
-        this.backgroundImage = backgroundImage;
+    public void setImage(String backgroundImage) {
+        this.image = backgroundImage;
     }
 
     public float getStars() {
